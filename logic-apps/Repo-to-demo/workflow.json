@@ -27,7 +27,7 @@
                     "body": {
                         "To": "genady@gbelenky.onmicrosoft.com",
                         "Subject": "You have some news!",
-                        "Body": "<p>sending you a message</p>",
+                        "Body": "<p>sending you a message again</p>",
                         "Importance": "Normal"
                     },
                     "path": "/v2/Mail"
