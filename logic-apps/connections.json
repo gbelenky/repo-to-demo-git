@@ -1,0 +1,18 @@
+{
+  "managedApiConnections": {
+    "office365": {
+      "api": {
+        "id": "/subscriptions/b651dacd-e6f5-465b-a17c-25f3a2cdd0c8/providers/Microsoft.Web/locations/westeurope/managedApis/office365"
+      },
+      "connection": {
+        "id": "/subscriptions/b651dacd-e6f5-465b-a17c-25f3a2cdd0c8/resourceGroups/repo-to-demo-la-localdev-rg/providers/Microsoft.Web/connections/office365"
+      },
+      "connectionRuntimeUrl": "https://0d2e6581196e75b6.05.common.logic-westeurope.azure-apihub.net/apim/office365/962cabe3a357461d85a80455bb89df14/",
+      "authentication": {
+        "type": "Raw",
+        "scheme": "Key",
+        "parameter": "@appsetting('office365-connectionKey')"
+      }
+    }
+  }
+}
